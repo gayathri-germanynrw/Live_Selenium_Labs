@@ -1,7 +1,7 @@
 
  Topics:
 
-      **  Locators - findElement() - getText() - getAttribute() - findElements() - getTitle()
+      **  Locators - findElement() - getText() - getAttribute() - getTitle()
 
 ===========================================
 
