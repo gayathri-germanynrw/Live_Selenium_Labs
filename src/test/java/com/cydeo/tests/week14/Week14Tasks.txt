@@ -19,8 +19,7 @@ ____________________________________________
  1- Setup the "browser driver"
  2- Go to "https://vytrack.com"
  3- Click Login label
- 4- Login to application with username as "User1" and password as "UserUser123"
- 5- Verify the password is hidden
+ 4- Verify the password is hidden
 ____________________________________________
 
  ** TC003 As a user I should be able to see Home, About us, Our Approach, Product and Services, Contact and LOGIN labels are displayed
