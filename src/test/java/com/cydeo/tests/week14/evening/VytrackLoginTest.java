@@ -1,5 +1,6 @@
 package com.cydeo.tests.week14.evening;
 
+import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +29,7 @@ public class VytrackLoginTest {
         driver.findElement(By.id("prependedInput2")).sendKeys("UserUser123"+ Keys.ENTER);
 
         Thread.sleep(3000);
+
 
         // 5- Verify the title is "Dashboard"
         if(driver.getTitle().equals("Dashboard")){
