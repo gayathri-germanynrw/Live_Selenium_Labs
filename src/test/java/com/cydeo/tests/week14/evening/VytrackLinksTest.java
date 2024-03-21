@@ -21,7 +21,7 @@ public class VytrackLinksTest {
 
         //  3-verify Home, About us, Our Approach, Products and Services, Contact and LOGIN labels are displayed
 
-       List<WebElement> allTopLinks = driver.findElements(By.xpath("//ul[@id='top-menu']/li/a"));
+       List<WebElement> allTopLinks = driver.findElements(By.xpath("//ul[@id='top-menu']/li/a")); // css: ul[id='top-menu']>li>a
 
      //  List<String> expectedAllTopLinks = new ArrayList<>(Arrays.asList("Home", "About us", "Our Approach", "Products and Services", "Contact", "LOGIN"));
 
