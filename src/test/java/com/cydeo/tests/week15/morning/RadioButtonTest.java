@@ -1,6 +1,7 @@
 package com.cydeo.tests.week15.morning;
 
-import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.tests.base.TestBase;
+import com.cydeo.utilities.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,15 +10,9 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class RadioButtonTest {
-    WebDriver driver;
-@BeforeMethod
-    public void setupMethod(){
-//  1-open a chrome browser
-    driver=new ChromeDriver();
-    driver.manage().window().maximize();
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-}
+
+public class RadioButtonTest extends TestBase {
+
 
 @Test
     public void radioButtonTest() {
