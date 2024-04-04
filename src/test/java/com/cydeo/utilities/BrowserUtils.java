@@ -83,4 +83,10 @@ public class BrowserUtils {
         driver.findElement(By.linkText(option)).click();
     }
 
+    public static void selectDay(WebDriver driver, int date){
+        driver.findElement(By.xpath("//td[.='"+ date +"']")).click();
+    }
+
+
+
 }
